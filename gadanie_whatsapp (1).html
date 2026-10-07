@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Гадание — Ответы, которые вы ищете</title>
+  <meta name="description" content="Онлайн-гадание на любовь, отношения, будущее и важные вопросы. Запись через WhatsApp.">
+  <style>
+    :root{
+      --bg:#0b0714;
+      --card:rgba(24,16,39,.82);
+      --gold:#e8c878;
+      --gold2:#fff0b0;
+      --text:#f8f3e9;
+      --muted:#c9bfd3;
+      --line:rgba(232,200,120,.22);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Georgia,"Times New Roman",serif;
+      color:var(--text);
+      background:
+        radial-gradient(circle at 50% 0%, #38204e 0, transparent 36%),
+        radial-gradient(circle at 10% 80%, #24133b 0, transparent 30%),
+        var(--bg);
+      min-height:100vh;
+    }
+    .stars{
+      position:fixed; inset:0; pointer-events:none; opacity:.5;
+      background-image:
+        radial-gradient(#fff 1px,transparent 1px),
+        radial-gradient(#e8c878 1px,transparent 1px);
+      background-size:120px 120px,180px 180px;
+      background-position:20px 30px,70px 90px;
+    }
+    header{
+      max-width:1100px;margin:auto;padding:24px 22px;
+      display:flex;justify-content:space-between;align-items:center;
+    }
+    .logo{font-size:22px;letter-spacing:2px;color:var(--gold)}
+    nav a{color:var(--muted);text-decoration:none;margin-left:22px}
+    nav a:hover{color:var(--gold2)}
+    main{position:relative}
+    .hero{
+      max-width:1000px;margin:45px auto 0;padding:60px 22px 90px;text-align:center;
+    }
+    .moon{
+      width:92px;height:92px;border-radius:50%;margin:0 auto 24px;
+      background:linear-gradient(145deg,#fff8cf,#d8b85e);
+      box-shadow:0 0 45px rgba(232,200,120,.35);
+      position:relative;
+    }
+    .moon:after{
+      content:"";position:absolute;width:82px;height:82px;border-radius:50%;
+      background:#21132f;left:22px;top:-8px;
+    }
+    h1{font-size:clamp(42px,8vw,76px);line-height:1.02;margin:0 0 20px}
+    .gold{color:var(--gold)}
+    .lead{font-size:20px;line-height:1.65;color:var(--muted);max-width:700px;margin:0 auto 34px}
+    .buttons{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+    .btn{
+      display:inline-block;padding:15px 25px;border-radius:999px;
+      text-decoration:none;font-weight:bold;font-size:17px;transition:.2s;
+    }
+    .btn-main{background:var(--gold);color:#21172a;box-shadow:0 8px 30px rgba(232,200,120,.22)}
+    .btn-main:hover{transform:translateY(-2px);background:var(--gold2)}
+    .btn-alt{border:1px solid var(--line);color:var(--text);background:rgba(255,255,255,.04)}
+    .btn-alt:hover{border-color:var(--gold);color:var(--gold2)}
+    .section{max-width:1000px;margin:auto;padding:30px 22px 80px}
+    .section h2{text-align:center;font-size:38px;margin-bottom:38px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{
+      background:var(--card);border:1px solid var(--line);border-radius:22px;
+      padding:28px;text-align:center;backdrop-filter:blur(8px);
+    }
+    .icon{font-size:38px;margin-bottom:10px}
+    .card h3{color:var(--gold);font-size:22px;margin:8px 0 12px}
+    .card p{color:var(--muted);line-height:1.6;margin:0}
+    .contact{
+      max-width:760px;margin:0 auto 80px;padding:40px 24px;text-align:center;
+      border:1px solid var(--line);border-radius:28px;background:rgba(24,16,39,.9);
+    }
+    .contact h2{margin-top:0}
+    .numbers{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:24px 0}
+    .number{
+      padding:11px 16px;border-radius:12px;background:rgba(255,255,255,.05);
+      color:var(--gold2);font-family:Arial,sans-serif;
+    }
+    footer{text-align:center;padding:28px 22px;color:#8f849a;border-top:1px solid rgba(255,255,255,.06)}
+    @media(max-width:700px){
+      nav{display:none}.hero{padding-top:35px}
+      .cards{grid-template-columns:1fr}
+      .lead{font-size:18px}
+    }
+  </style>
+</head>
+<body>
+<div class="stars"></div>
+
+<header>
+  <div class="logo">✦ ТАЙНЫ ЗНАКОВ</div>
+  <nav>
+    <a href="#services">Услуги</a>
+    <a href="#contact">Запись</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="moon"></div>
+    <h1>Узнайте, что <span class="gold">готовит судьба</span></h1>
+    <p class="lead">
+      Гадание на любовь, отношения, будущее и важные вопросы.
+      Напишите в WhatsApp и получите персональную консультацию.
+    </p>
+    <div class="buttons">
+      <a class="btn btn-main" href="https://wa.me/79898391093" target="_blank" rel="noopener">
+        WhatsApp · +7 989 839-10-93
+      </a>
+      <a class="btn btn-alt" href="https://wa.me/905353197120" target="_blank" rel="noopener">
+        WhatsApp · +90 535 319-71-20
+      </a>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <h2>Гадание на ваш вопрос</h2>
+    <div class="cards">
+      <article class="card">
+        <div class="icon">♡</div>
+        <h3>Любовь</h3>
+        <p>Чувства человека, перспективы отношений и вопросы о личной жизни.</p>
+      </article>
+      <article class="card">
+        <div class="icon">☾</div>
+        <h3>Будущее</h3>
+        <p>Посмотрите на возможные события и важные перемены на вашем пути.</p>
+      </article>
+      <article class="card">
+        <div class="icon">✧</div>
+        <h3>Ответ на вопрос</h3>
+        <p>Сформулируйте один важный вопрос и получите индивидуальное толкование.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Записаться на гадание</h2>
+    <p class="lead" style="margin-bottom:15px">
+      Нажмите на удобный номер — откроется WhatsApp с готовым переходом к переписке.
+    </p>
+    <div class="numbers">
+      <span class="number">+7 989 839-10-93</span>
+      <span class="number">+90 535 319-71-20</span>
+    </div>
+    <div class="buttons">
+      <a class="btn btn-main" href="https://wa.me/79898391093" target="_blank" rel="noopener">Написать в WhatsApp</a>
+      <a class="btn btn-alt" href="https://wa.me/905353197120" target="_blank" rel="noopener">Второй WhatsApp</a>
+    </div>
+  </section>
+</main>
+
+<footer>© 2026 · Тайны знаков</footer>
+</body>
+</html>
